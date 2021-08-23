@@ -11,41 +11,46 @@ function Footer() {
   let date = new Date();
   let year = "2020";
   return (
-    <Container fluid className="footer">
-      <Row>
-        <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Mubashir Nazir</h3>
-        </Col>
-        <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} </h3>
-        </Col>
-        <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                href="https://github.com/mubashir-1"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
+    <Container fluid className="footer" style={{
+      position: "fixed",
+      left: "0",
+      bottom: "0",
+      width: "100%"
+    }}>
+  <Row>
+    <Col md="4" className="footer-copywright">
+      <h3>Designed and Developed by Mubashir Nazir</h3>
+    </Col>
+    <Col md="4" className="footer-copywright">
+      <h3>Copyright © {year} </h3>
+    </Col>
+    <Col md="4" className="footer-body">
+      <ul className="footer-icons">
+        <li className="social-icons">
+          <a
+            href="https://github.com/mubashir-1"
+            style={{ color: "white" }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiFillGithub />
+          </a>
+        </li>
 
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/mubashirnazir/"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-          </ul>
-        </Col>
-      </Row>
-    </Container>
+        <li className="social-icons">
+          <a
+            href="https://www.linkedin.com/in/mubashirnazir/"
+            style={{ color: "white" }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedinIn />
+          </a>
+        </li>
+      </ul>
+    </Col>
+  </Row>
+    </Container >
   );
 }
 

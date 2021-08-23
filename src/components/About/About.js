@@ -63,9 +63,7 @@ function About() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
+
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
@@ -87,6 +85,10 @@ function About() {
                   <FaLinkedinIn />
                 </a>
               </li>
+              <br/> <br/> 
+              <p>
+                Feel free to <span className="purple">connect </span>with me
+              </p>
 
             </ul>
           </Col>

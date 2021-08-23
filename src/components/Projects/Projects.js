@@ -28,7 +28,7 @@ function Projects() {
               isBlog={false}
               title="Tracking Mart Product System"
               description="Shortest Route Analysis using Mart floor map based on combinatorial optimization and searching algorithm."
-              link="https://github.com/soumyajit4419/Chatify"
+              link=""
             />
           </Col>
 
@@ -38,7 +38,7 @@ function Projects() {
               isBlog={false}
               title="Human Capital HR solutions"
               description="Human capital provides expert outsourced HR consultancy and support. They help client focusses on achieving competitive edge through identification assessment and recruitment of the right profile"
-              link="https://github.com/soumyajit4419/Plant_AI"
+              link=""
             />
           </Col>
 
@@ -48,7 +48,7 @@ function Projects() {
               isBlog={false}
               title="Internet banking Management System"
               description="A clone of some of the banking features including Bill payments, Transfer between accounts and Account management using MERN Stack."
-              link="https://github.com/soumyajit4419/Editor.io"
+              link=""
             />
           </Col>
 
@@ -58,7 +58,7 @@ function Projects() {
               isBlog={false}
               title="Alive and Well"
               description="A customized Web-App for patient testing and serving remotely."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              link=""
             />
           </Col>
 
@@ -68,7 +68,7 @@ function Projects() {
               isBlog={false}
               title="AnmoleRishta"
               description="AnmoleRishta is providing best platform in types of assistance for searching life partner/life accomplice to associate one another."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              link=""
             />
           </Col>
 
@@ -78,7 +78,7 @@ function Projects() {
               isBlog={false}
               title="Rahila Research and Reference Lab (Pvt) Ltd"
               description="is a clinical/research based Web App that offer laboratory testing services."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              link=""
             />
           </Col>
         </Row>
