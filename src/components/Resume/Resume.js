@@ -4,11 +4,11 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/Soumyajit-Behera.pdf";
+
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
-  const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
+  const uri = "";
   const [spojRank, upadteSpojRank] = useState(0);
   const [hackerrank, upadteHackerank] = useState(0);
   const [sem, upadateSem] = useState(0);
@@ -32,20 +32,14 @@ function Resume() {
     <Container fluid className="resume-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
-            <AiOutlineDownload />
-            &nbsp;Download CV
-          </Button>
-        </Row>
         <Row className="resume">
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Working Experience</h3>
             <Resumecontent
               title="MERN Developer"
-              date="July 2021 - Present"
+              date="July 2018 - Present"
               content={[
-                "Remote.JS",
+                "Working as a freelance remote developer",
                 ,
               ]}
             />
@@ -53,7 +47,7 @@ function Resume() {
               title="SOFTWARE ENGINEER"
               date="June 2020 - May 2021"
               content={[
-      
+
                 "(CODEBOX Solutions Private Limited)",
               ]}
             />
@@ -87,7 +81,7 @@ function Resume() {
             <Resumecontent
               title="Intermediate in Pre-Engineering [Govt. Dehli College]"
               date="2011 - 2013"
-              content={[ ]}
+              content={[]}
             />
             <Resumecontent
               title="Matriculation [Little Folk's School] "
@@ -105,11 +99,7 @@ function Resume() {
             />
           </Col>
         </Row>
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
-          <AiOutlineDownload />&nbsp;Download CV
-          </Button>
-        </Row>
+
       </Container>
     </Container>
   );
