@@ -1,87 +1,76 @@
-## A clean, beautiful, minimal and responsive portfolio template for Developers!
+<h2 align="center">
+  Portfolio Website - v2.0<br/>
+  <a href="http://soumyajit.tech/" target="_blank">soumyajit.tech</a>
+</h2>
+<div align="center">
+  <img alt="Demo" src="./Images/readme-img1.png" />
+</div>
 
-![Web 1920 – 1](https://user-images.githubusercontent.com/16558205/101065060-b44bfc80-35ba-11eb-8ab4-1e6f140c1ec9.png)
+<br/>
 
-To view a live example, **[click here](https://react-portfolio-template.netlify.app/)**.
+<center>
 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
+![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
+![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
 
-Just change `src/yourdata.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
+</center>
 
-But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/chetanverma16/react-portfolio-template/issues).
+<h3 align="center">
+    🔹
+    <a href="https://github.com/soumyajit4419/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
+    🔹
+    <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a>
+</h3>
 
+## TL;DR
 
-If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/chetanverma16/react-portfolio-template/pulls).
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
+
+## Built With
+
+My personal portfolio <a href="http://soumyajit.tech/" target="_blank">soumyajit.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+
+This project was built using these technologies.
+
+- React.js
+- Node.js
+- Express.js
+- CSS3
+- VsCode
+- Vercel
 
 ## Features
-- Responsive
-- Modern Design
-- Clean Animations
-- Easy to use
 
+**📖 Multi-Page Layout**
 
-## Sections
-✔️ Header
-✔️ Work
-✔️ About
-✔️ Skills
-✔️ Contact
+**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
 
+**📱 Fully Responsive**
 
-## How To Use 
+## Getting Started
 
-From your command line, clone and run react-portfolio-template:
+Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
 
-```bash
-# Clone this repository
-$ git clone https://github.com/chetanverma16/react-portfolio-template
+## 🛠 Installation and Setup Instructions
 
-# Go into the repository
-$ cd react-portfolio-template
+1. Installation: `npm install`
 
-# Install dependencies
-$ yarn
+2. In the project directory, you can run: `npm start`
 
-#Start's development server
-$ gatsby develop
-```
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The page will reload if you make edits.
 
-#### Personalize page content in `/src/yourdata.js` & modify it as per your need.
+## Usage Instructions
 
-```javascript
-/* Change this file to get your Personal Porfolio */
- // Edit Values of these variables
+Open the project folder and Navigate to `/src/components/`. <br/>
+You will find all the components used and you can edit your information accordingly.
 
-name:"chetan",
-headerTagline: [
-    "Building digital",.... 
-]
+### Show your support
 
-```
+Give a ⭐ if you like this website!
 
-## Deployment
-When you are done with the setup, you should host your website online.
-We highly recommend to read through the [Deploying on Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) docs for React.
-
-#### Deploying to Netlify
-
-You could also host directly with Netlify by linking your own repository.
-
-[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/chetanverma16/react-portfolio-template)
-
-For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
-
-
-## Technologies Used
-
-- [React](https://reactjs.org/)
-- [Gatsby](https://www.gatsbyjs.com/)
-
-
-
-## For the Future
-If you have awesome ideas on your mind,
-please don't hesitate to open a [pull request](https://github.com/chetanverma16/react-portfolio-template/pulls).
-
-## Thanks
-If you like this portfolio template don't forget give it a ⭐ and also share it with me [here](mailto:hello@chetanverma.com).
-
+<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>

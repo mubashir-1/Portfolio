@@ -1,39 +1,71 @@
-import React from "react"
-import Fade from "react-reveal/Fade"
-import data from "../yourdata"
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
-const Footer = () => {
+function Footer() {
+  let date = new Date();
+  let year = date.getFullYear();
   return (
-    <div className="section" id="contact">
-      <div className="container">
-        <div className="footer-container">
-          <Fade bottom cascade>
-            <h1>Contact</h1>
-            <h2>{data.contactSubHeading}</h2>
-          </Fade>
-          <a className="email-link" href={`mailto:${data.contactEmail}`}>
-            {data.contactEmail}
-          </a>
-          <div className="social-icons">
-            {data.social.map((socialLink, index) => (
+    <Container fluid className="footer">
+      <Row>
+        <Col md="4" className="footer-copywright">
+          <h3>Designed and Developed by Soumyajit Behera</h3>
+        </Col>
+        <Col md="4" className="footer-copywright">
+          <h3>Copyright © {year} SB</h3>
+        </Col>
+        <Col md="4" className="footer-body">
+          <ul className="footer-icons">
+            <li className="social-icons">
               <a
-                key={index}
-                href={socialLink.url}
-                target="_blank"
+                href="https://github.com/soumyajit4419"
+                style={{ color: "white" }}
+                target="_blank" 
                 rel="noopener noreferrer"
               >
-                <img src={socialLink.img} alt="icons"></img>
+                <AiFillGithub />
               </a>
-            ))}
-          </div>
-          <span>
-            Made With <icon>❤</icon> by{" "}
-            <a href="https://www.chetanverma.com/">Chetan Verma</a>
-          </span>
-        </div>
-      </div>
-    </div>
-  )
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://twitter.com/Soumyajit4419"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiOutlineTwitter />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.linkedin.com/in/soumyajit4419/"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiFillInstagram />
+              </a>
+            </li>
+          </ul>
+        </Col>
+      </Row>
+    </Container>
+  );
 }
 
-export default Footer
+export default Footer;
