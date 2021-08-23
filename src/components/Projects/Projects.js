@@ -28,7 +28,7 @@ function Projects() {
               isBlog={false}
               title="Tracking Mart Product System"
               description="Shortest Route Analysis using Mart floor map based on combinatorial optimization and searching algorithm."
-             // link="https://github.com/soumyajit4419/Chatify"
+              link="https://github.com/soumyajit4419/Chatify"
             />
           </Col>
 
