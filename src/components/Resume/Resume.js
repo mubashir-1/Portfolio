@@ -42,19 +42,19 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Working Experience</h3>
             <Resumecontent
-              title="Remote Jobs[Omdena]"
+              title="MERN Developer"
               date="July 2021 - Present"
               content={[
-                "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
-                " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
+                "Remote.JS",
+                ,
               ]}
             />
             <Resumecontent
-              title="SOFTWARE ENGINEER [Omdena]"
+              title="SOFTWARE ENGINEER"
               date="June 2020 - May 2021"
               content={[
-                "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
-                " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
+      
+                "(CODEBOX Solutions Private Limited)",
               ]}
             />
             <h3 className="resume-title">Certifications</h3>
@@ -82,17 +82,17 @@ function Resume() {
             <Resumecontent
               title="Bachelors in Computer Science [University f Karachi] "
               date="2013 - 2018"
-              content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
+              content={[]}
             />
             <Resumecontent
               title="Intermediate in Pre-Engineering [Govt. Dehli College]"
               date="2011 - 2013"
-              content={["Precentage: 88%"]}
+              content={[ ]}
             />
             <Resumecontent
               title="Matriculation [Little Folk's School] "
               date="2000 - 2010"
-              content={["Precentage: 86%"]}
+              content={[]}
             />
             <h3 className="resume-title">Co-Curricular Activities</h3>
             <Resumecontent
